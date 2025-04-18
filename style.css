@@ -1,0 +1,62 @@
+/* Sidebar Styling */
+#sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color: dodgerblue;
+    color:black;
+    padding-top: 20px;
+}
+
+#sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#sidebar ul li {
+    padding: 10px;
+}
+
+#sidebar ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+#sidebar ul li a:hover {
+    background-color: #495057;
+}
+
+/* Main Content Styling */
+#main-content {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+/* Image Slider Animation */
+.image-slider {
+    display: flex;
+    overflow: hidden;
+    width: 900px;
+    height: 600px;
+    
+}
+
+.image-slider img {
+    animation: slide 10s infinite;
+}
+
+@keyframes slide {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+}
+.red{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: dodgerblue;
+}
+
+
